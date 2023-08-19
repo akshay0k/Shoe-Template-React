@@ -21,6 +21,7 @@ button {
   color: white;
   font-weight: 500;
   padding: 6px 16px;
+  cursor: pointer;
 }
 nav {
   display: flex;
@@ -29,12 +30,14 @@ nav {
   margin: 0 auto;
   height: 72px;
   align-items: center;
+  
 }
 
 nav ul {
   display: flex;
   gap: 25px;
   list-style: none;
+  cursor: pointer;
 }
 .hero {
   display: flex;
@@ -59,6 +62,7 @@ nav ul {
 .hero-btn{
     display: flex;
     gap: 40px;
+    cursor: pointer;
 }
 .secondary-btn{
     background: transparent;
